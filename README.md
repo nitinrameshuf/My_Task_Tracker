@@ -58,6 +58,9 @@ cd ~/Desktop/code/todo/backend
 python3.8 -m venv venv
 source venv/bin/activate
 
+# Upgrade pip/setuptools first — old pip fails building backports.zoneinfo on Python 3.8
+pip install --upgrade pip setuptools wheel
+
 # Install dependencies
 pip install -r requirements.txt
 
