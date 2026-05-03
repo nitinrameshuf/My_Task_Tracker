@@ -22,8 +22,8 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | python3.8
 # PostgreSQL
 sudo apt-get install -y postgresql postgresql-contrib libpq-dev
 
-# Node.js 18 via NodeSource
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+# Node.js 16 via NodeSource (18+ requires glibc 2.28, Ubuntu 18.04 has 2.27)
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # Build tools (needed for psycopg2)

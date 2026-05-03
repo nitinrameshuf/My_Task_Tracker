@@ -8,7 +8,7 @@ A single-screen shared family chore board. No auth — designed to run on one sh
 |---|---|
 | Backend | Django 4.2, Django REST Framework |
 | Database | PostgreSQL (via psycopg2-binary) |
-| Frontend | React 18, TypeScript, Vite, Tailwind CSS |
+| Frontend | React 18, TypeScript, Vite 4, Tailwind CSS |
 | Data fetching | TanStack React Query v5 |
 | Date utils | date-fns |
 
